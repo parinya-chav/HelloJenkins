@@ -9,7 +9,11 @@ namespace HelloJenkins
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Jenkins!");
+            for (int i = 0; i < 100; i++)
+            {
+                Console.WriteLine("Hello Jenkins!");
+            }
+
             Console.ReadLine();
         }
     }
