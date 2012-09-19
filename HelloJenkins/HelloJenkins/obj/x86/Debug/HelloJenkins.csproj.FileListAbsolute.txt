@@ -1,5 +1,0 @@
-D:\GithubRepositories\HelloJenkins\HelloJenkins\HelloJenkins\bin\Debug\HelloJenkins.exe
-D:\GithubRepositories\HelloJenkins\HelloJenkins\HelloJenkins\bin\Debug\HelloJenkins.pdb
-D:\GithubRepositories\HelloJenkins\HelloJenkins\HelloJenkins\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\GithubRepositories\HelloJenkins\HelloJenkins\HelloJenkins\obj\x86\Debug\HelloJenkins.exe
-D:\GithubRepositories\HelloJenkins\HelloJenkins\HelloJenkins\obj\x86\Debug\HelloJenkins.pdb
