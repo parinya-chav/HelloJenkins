@@ -9,7 +9,7 @@ namespace HelloJenkins
     {
         private static void Main()
         {
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 500; i++)
             {
                 Console.WriteLine("Hello Jenkins! " + i);
             }
