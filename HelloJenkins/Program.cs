@@ -5,9 +5,9 @@ using System.Text;
 
 namespace HelloJenkins
 {
-    static class Program
+    public static class Program
     {
-        static void Main()
+        private static void Main()
         {
             for (int i = 0; i < 100; i++)
             {
