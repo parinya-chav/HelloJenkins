@@ -5,7 +5,7 @@ using System.Text;
 
 namespace HelloJenkins
 {
-    class Program
+    static class Program
     {
         static void Main()
         {
