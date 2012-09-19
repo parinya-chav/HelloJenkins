@@ -11,7 +11,7 @@ namespace HelloJenkins
         {
             for (int i = 0; i < 100; i++)
             {
-                Console.WriteLine("Hello Jenkins!");
+                Console.WriteLine("Hello Jenkins! " + i);
             }
 
             Console.ReadLine();
