@@ -17,6 +17,7 @@ namespace HelloLib.Test
                 Name = "Ding",
             };
 
+            string writeHello = human.WriteHello();
             Assert.AreEqual("Hi, I am Ding", human.WriteHello());
         }
     }
