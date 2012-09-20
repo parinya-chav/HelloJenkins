@@ -5,12 +5,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloJenkins", "HelloJenkin
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0FCD8238-5D92-4A3F-8836-31023F3E9606}"
 	ProjectSection(SolutionItems) = preProject
+		HelloJenkins.vsmdi = HelloJenkins.vsmdi
+		Local.testsettings = Local.testsettings
 		sonar-project.properties = sonar-project.properties
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloLib", "HelloLib\HelloLib.csproj", "{874CCCAD-3CDF-46F6-9741-37CF9F8B453D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloLib.Test", "HelloLib.Test\HelloLib.Test.csproj", "{3822A611-35AE-4119-AE4D-61FD1E5167D1}"
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = HelloJenkins.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -40,6 +48,16 @@ Global
 		{874CCCAD-3CDF-46F6-9741-37CF9F8B453D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{874CCCAD-3CDF-46F6-9741-37CF9F8B453D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{874CCCAD-3CDF-46F6-9741-37CF9F8B453D}.Release|x86.ActiveCfg = Release|Any CPU
+		{3822A611-35AE-4119-AE4D-61FD1E5167D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3822A611-35AE-4119-AE4D-61FD1E5167D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3822A611-35AE-4119-AE4D-61FD1E5167D1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3822A611-35AE-4119-AE4D-61FD1E5167D1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3822A611-35AE-4119-AE4D-61FD1E5167D1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3822A611-35AE-4119-AE4D-61FD1E5167D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3822A611-35AE-4119-AE4D-61FD1E5167D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3822A611-35AE-4119-AE4D-61FD1E5167D1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3822A611-35AE-4119-AE4D-61FD1E5167D1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3822A611-35AE-4119-AE4D-61FD1E5167D1}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
