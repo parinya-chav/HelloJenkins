@@ -18,7 +18,7 @@ namespace HelloLib.Test
             };
 
             string writeHello = human.WriteHello();
-            Assert.AreEqual("Hi, I am Ding", human.WriteHello());
+            Assert.AreEqual("Hi, I am Ding", writeHello);
         }
     }
 }
