@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using HelloLib;
 
 namespace HelloJenkins
 {
@@ -9,9 +10,13 @@ namespace HelloJenkins
     {
         private static void Main()
         {
+            var jenkins = new Human
+            {
+                Name = "Jenkins"
+            };
             for (int i = 0; i < 500; i++)
             {
-                Console.WriteLine("Hello Jenkins! " + i);
+                Console.WriteLine(jenkins.WriteHello() + i);
             }
 
             Console.ReadLine();
